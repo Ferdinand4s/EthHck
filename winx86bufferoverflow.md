@@ -1,10 +1,11 @@
 # Windows
-## Requirements
+## Buffer Overflow
+### Requirements
 1. Win 7 x86
 2. immunity debugger
 3. mona.py
 4. easy rm to mp3 converter
-## Steps
+### Steps
 1. offset to EIP
 2. find bad characters
 3. generate shellcode
@@ -13,3 +14,10 @@
 4. !mona modules
 5. !mona jmp -r esp -m "[*.dll]"
 6. result to 'EIP'
+
+## SLMail Buffer Overflow
+### Requirements
+1. Sl mail
+2.
+
+*do this later*
